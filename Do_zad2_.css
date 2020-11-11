@@ -1,0 +1,28 @@
+.slideshow {
+    width: 700px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.slideshow-image {
+    width: 700px;
+    height: 450px;
+    float: left;
+}
+
+.container {
+    width: 2800px;
+    position: relative;
+    animation: slide 16s ease-in-out infinite;
+}
+
+
+@keyframes slide {
+    0% {left:0;}
+    25% {left:-700px;}
+    50% {left:-1400px;}
+    75% {left:-2100px;}
+    100% {left: 0;}
+}
+

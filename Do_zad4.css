@@ -1,0 +1,180 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+div, img{
+     max-height: 600px;
+     max-width: 600px;
+     min-height: 400px;
+     min-width: 400px;
+ }
+
+section{
+    overflow: hidden;
+}
+
+ div {
+     float: left;
+     background-color: white;
+     border-radius: 10px;
+ }
+
+img {
+
+    box-shadow: 0 0 10px 4px #616A80;
+    border-radius: 10px;
+    padding-bottom: 3px;
+
+}
+
+p{
+    font-size: 20px;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    bottom: 25px;
+    padding: 2px 4px 2px 55px;
+}
+
+#Photo_1 {
+
+    position: relative;
+    top: 64px;
+    left: 65px;
+    transform: rotate(-10deg);
+
+}
+
+#Photo_2 {
+    position: relative;
+    right: -40px;
+    top: 70px;
+    transform: rotate(15deg);
+    z-index: 1;
+}
+
+#Photo_3 {
+    position: relative;
+    bottom: 250px;
+    left: 430px;
+    transform: rotate(20deg);
+}
+
+#Photo_4 {
+    position: relative;
+    bottom: 50px;
+    right: -380px;
+    transform: rotate(-5deg);
+
+}
+
+#Photo_5 {
+    position: relative;
+    right: 126px;
+    bottom: 340px;
+    transform: rotate(-5deg);
+
+}
+
+#Photo_6 {
+    position: relative;
+    bottom: 1000px;
+    left: 44px;
+    transform: rotate(-8deg);
+
+}
+
+.photos div:hover {
+    transform: rotate(0);
+    z-index: 2;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.photos{
+    overflow: hidden;
+}
+
+.photos div {
+    display: inline-block;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    max-height: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+img {
+    box-shadow: 0 0 10px 4px #616A80;
+    border-radius: 10px;
+    padding-bottom: 3px;
+    max-height: 300px;
+    max-width: 300px;
+    min-height: 300px;
+    min-width: 300px;
+
+}
+
+p{
+    font-size: 20px;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    bottom: 25px;
+    padding: 2px 4px 2px 55px;
+}
+
+.photo {
+    position: relative;
+}
+
+.photo-1 {
+    top: 64px;
+    left: 65px;
+    transform: rotate(-10deg);
+}
+
+.photo-2 {
+    right: -40px;
+    top: 70px;
+    transform: rotate(15deg);
+    z-index: 1;
+}
+
+.photo-3 {
+    bottom: 250px;
+    left: 430px;
+    transform: rotate(20deg);
+}
+
+.photo-4 {
+    bottom: 50px;
+    right: -380px;
+    transform: rotate(-5deg);
+
+}
+
+.photo-5 {
+    right: 126px;
+    bottom: 340px;
+    transform: rotate(-5deg);
+}
+
+.photo-6 {
+    bottom: 1000px;
+    left: 44px;
+    transform: rotate(-8deg);
+
+}
+
+.photo:hover {
+    transform: rotate(0deg);
+    z-index: 2;
+}
